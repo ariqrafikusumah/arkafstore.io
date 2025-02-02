@@ -14,9 +14,9 @@ function HomePage() {
   const [currentIndex, setCurrentIndex] = useState(0); // For the carousel image index
 
   const banners = [
-    "../src/assets/banner-arkafstore.png", // Replace with actual banner images
-    "../src/assets/banner-arkafstore-2.png", // Replace with actual banner images
-    "../src/assets/banner-arkafstore.png", // Replace with actual banner images
+    "./img/banner-arkafstore.png", // Replace with actual banner images
+    "./img/banner-arkafstore-2.png", // Replace with actual banner images
+    "./img/banner-arkafstore.png", // Replace with actual banner images
   ];
 
   const navigate = useNavigate();
@@ -99,7 +99,7 @@ function HomePage() {
         {/* Carousel Banner */}
         <h1 className="text-2xl font-bold text-center mb-6 text-purple-500">
           <img
-            src="../src/assets/favicon.png"
+            src="./img/favicon.png"
             alt="logo"
             className="w-8 h-8 inline-block"
           />{" "}
