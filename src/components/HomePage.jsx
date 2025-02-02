@@ -18,7 +18,8 @@ function HomePage() {
   const games = {
     "mobile-legends": {
       name: "Mobile Legends",
-      image: "./public/img/MLBB_icon.webp", // Tambahkan gambar untuk game
+      image:
+        "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/MLBB-2025-tiles-178x178.jpg", // Tambahkan gambar untuk game
       items: [
         {
           id: 5,
@@ -145,7 +146,8 @@ function HomePage() {
     },
     "free-fire": {
       name: "Free Fire",
-      image: "./public/img/FF_icon.jfif", // Tambahkan gambar untuk game
+      image:
+        "https://cdn.unipin.com/images/icon_product_pages/1658817763-icon-200x200_icon%20ff.jpg", // Tambahkan gambar untuk game
       items: [
         {
           id: 5,
@@ -248,7 +250,8 @@ function HomePage() {
     },
     "pubg-mobile": {
       name: "PUBG Mobile",
-      image: "/public/img/PUBG_icon.png", // Tambahkan gambar untuk game
+      image:
+        "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/pubgm_tile_aug2024.jpg", // Tambahkan gambar untuk game
       items: [
         {
           id: 60,
